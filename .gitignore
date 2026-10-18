@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache, bytecode, and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Environment files and secrets (NEVER commit secrets or real .env)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Local SQLite databases, storage, and uploads
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
